@@ -6,30 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
-  background = '';
-  links = ['Home', 'About', 'Contact'];
+  background = 'primary';
 
-  navLinks = [{
-    path: '/home',
-    label: 'Home'
-  },{
-    path: '/about',
-    label: 'About'
-  },
+  navLinks = [
+    {
+      path: '/home',
+      label: 'Home'
+    },
+    {
+      path: '/about',
+      label: 'About'
+    },
     {
       path: '/contact',
       label: 'Contact Us'
-    }];
+    }
+  ];
 
-  activeLink = this.links[0];
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
-    this.background = 'primary';
-  }
-
-  toggleBackground() {
-    this.background = this.background ? '' : 'primary';
-  }
-
+  ngOnInit() {}
 }

@@ -1,4 +1,4 @@
-import {Component, OnInit, VERSION} from '@angular/core';
+import { Component, OnInit, VERSION } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -6,11 +6,9 @@ import {Component, OnInit, VERSION} from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
   angularVersion: string = VERSION.full;
-  constructor() { }
 
-  ngOnInit() {
-  }
+  constructor() {}
 
+  ngOnInit() {}
 }
