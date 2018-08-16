@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -8,22 +9,23 @@ import { Component, OnInit } from '@angular/core';
 export class NavigationComponent implements OnInit {
   background = 'primary';
 
-  navLinks = [
-    {
-      path: '/home',
-      label: 'Home'
-    },
-    {
-      path: '/about',
-      label: 'About'
-    },
-    {
-      path: '/contact',
-      label: 'Contact Us'
+  navLinks = [];
+
+  constructor(private router: Router) {}
+
+  ngOnInit() {
+    // build the navigation links using the Angular route config that was defined in app-routing.module.ts
+    // and dependency-injected into this component, which effectively shares that route information without
+    // having to define a separate Angular service component.
+    for (const route of this.router.config) {
+      // we only care about the ones that have a data.label since the others are not going to be rendered in our navigation bar
+      if (route.data && route.data.label) {
+        this.navLinks.push({
+          'path': `/${route.path}`,
+          'label': route.data.label
+        });
+      }
     }
-  ];
-
-  constructor() {}
-
-  ngOnInit() {}
+    console.log(JSON.stringify(this.navLinks));
+  }
 }
