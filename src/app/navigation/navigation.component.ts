@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -7,7 +7,6 @@ import {Router} from '@angular/router';
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
-
   background = 'primary';
   links = [];
 
@@ -26,8 +25,6 @@ export class NavigationComponent implements OnInit {
         });
       }
     }
-    console.log(JSON.stringify(this.links));
-
+    // console.log(JSON.stringify(this.links));
   }
-
 }
