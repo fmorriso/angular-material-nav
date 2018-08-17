@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -7,9 +7,9 @@ import { Router } from '@angular/router';
   styleUrls: ['./navigation.component.scss']
 })
 export class NavigationComponent implements OnInit {
-  background = 'primary';
 
-  navLinks = [];
+  background = 'primary';
+  links = [];
 
   constructor(private router: Router) {}
 
@@ -20,12 +20,14 @@ export class NavigationComponent implements OnInit {
     for (const route of this.router.config) {
       // we only care about the ones that have a data.label since the others are not going to be rendered in our navigation bar
       if (route.data && route.data.label) {
-        this.navLinks.push({
+        this.links.push({
           path: `/${route.path}`,
           label: route.data.label
         });
       }
     }
-    console.log(JSON.stringify(this.navLinks));
+    console.log(JSON.stringify(this.links));
+
   }
+
 }
