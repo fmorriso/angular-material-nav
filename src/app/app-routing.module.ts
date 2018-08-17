@@ -6,9 +6,9 @@ import { ContactComponent } from './contact/contact.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent, data: {label: 'Home'} },
-  { path: 'about', component: AboutComponent, data: {label: 'About'} },
-  { path: 'contact', component: ContactComponent, data: {label: 'Contact Us'} },
+  { path: 'home', component: HomeComponent, data: { label: 'Home' } },
+  { path: 'about', component: AboutComponent, data: { label: 'About' } },
+  { path: 'contact', component: ContactComponent, data: { label: 'Contact Us' } },
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
@@ -17,5 +17,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-
 export class AppRoutingModule {}

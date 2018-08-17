@@ -106,7 +106,4 @@ import { CdkTableModule } from '@angular/cdk/table';
     CdkTableModule
   ]
 })
-export class MaterialModule
-{
-
-}
+export class MaterialModule {}

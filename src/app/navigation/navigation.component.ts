@@ -1,5 +1,5 @@
-import {Component, OnInit} from '@angular/core';
-import {Router} from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-navigation',
@@ -21,8 +21,8 @@ export class NavigationComponent implements OnInit {
       // we only care about the ones that have a data.label since the others are not going to be rendered in our navigation bar
       if (route.data && route.data.label) {
         this.navLinks.push({
-          'path': `/${route.path}`,
-          'label': route.data.label
+          path: `/${route.path}`,
+          label: route.data.label
         });
       }
     }
