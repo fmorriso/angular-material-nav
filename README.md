@@ -1,6 +1,8 @@
 # angular-material-nav
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.2 and subsequently upgraded to newer editions of Angular and Angular Material
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli).
+
+It uses Angular Material and very little SCSS (mostly colors) because the whole point of using a canned set of SCSS/CSS such as Angular Material or Bootstrap is to avoid getting "tangled in the weeds" of SCSS/CSS.
 
 Upgraded to [Angular 7.x](https://angular.io/) and [Angular Material 7.x](https://material.angular.io/components/categories) on February 14, 2019.
 
