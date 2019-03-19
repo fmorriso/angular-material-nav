@@ -1,6 +1,6 @@
 <!--https://material.angular.io/components/grid-list/overview-->
 <!--https://material.io/design/components/image-lists.html-->
-<mat-grid-list cols="4" rowHeight="10em" gutterSize="2em">
+<!--<mat-grid-list cols="4" rowHeight="10em" gutterSize="2em">
   <mat-grid-tile
     *ngFor="let tile of tiles"
     [colspan]="tile.cols"
@@ -8,14 +8,38 @@
     [style.background]="tile.color">
     {{tile.text}}
   </mat-grid-tile>
-</mat-grid-list>
+</mat-grid-list>-->
 
-<mat-grid-list cols="4" rowheight="fit">
+<mat-grid-list cols="4" rowheight="10em" gutterSize="0.8em">
+
   <mat-grid-tile>
-
-
-      <img src="assets/photos/story1.jpg" alt="roaring">
-      <mat-grid-tile-footer>"Roaring 20's Hotel Reopens"</mat-grid-tile-footer>
-
+    <img src="assets/photos/hotel.jpg" alt="hotel">
+    <mat-grid-tile-footer>"Virtual Hotel Service Announced"</mat-grid-tile-footer>
   </mat-grid-tile>
+
+  <mat-grid-tile>
+    <img src="assets/photos/divorce.jpg" alt="divorce" height="100%">
+    <mat-grid-tile-footer>"Declining Divorce Rates Suprise Researchers"</mat-grid-tile-footer>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <img src="assets/photos/room2.jpg" alt="facelift" height="100%">
+    <mat-grid-tile-footer>"Hotel Gets Facelift"</mat-grid-tile-footer>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <img src="assets/photos/story1.jpg" alt="roaring">
+    <mat-grid-tile-footer>"Roaring 20's Hotel Reopens"</mat-grid-tile-footer>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <img src="assets/photos/story3.jpg" alt="jail">
+    <mat-grid-tile-footer>"Politician Behind Bars"</mat-grid-tile-footer>
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    <img src="assets/photos/story4.jpg" alt="airportwifi">
+    <mat-grid-tile-footer>"New WIFI in Airports"</mat-grid-tile-footer>
+  </mat-grid-tile>
+
 </mat-grid-list>
