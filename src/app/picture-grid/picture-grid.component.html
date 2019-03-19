@@ -1,0 +1,21 @@
+<!--https://material.angular.io/components/grid-list/overview-->
+<!--https://material.io/design/components/image-lists.html-->
+<mat-grid-list cols="4" rowHeight="10em" gutterSize="2em">
+  <mat-grid-tile
+    *ngFor="let tile of tiles"
+    [colspan]="tile.cols"
+    [rowspan]="tile.rows"
+    [style.background]="tile.color">
+    {{tile.text}}
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="4" rowheight="fit">
+  <mat-grid-tile>
+   
+
+      <img src="assets/photos/story1.jpg" alt="roaring">
+      <mat-grid-tile-footer>"Roaring 20's Hotel Reopens"</mat-grid-tile-footer>
+
+  </mat-grid-tile>
+</mat-grid-list>
