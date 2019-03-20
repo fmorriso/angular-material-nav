@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+
+
+
 import { Tile } from './tile';
 
 @Component({

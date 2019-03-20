@@ -1,4 +1,31 @@
 .spacer {
   width: 1em;
-  height: 0.8em;
+  height: 0.25em;
+}
+
+.flex-container {
+  display: flex;
+  //flex-flow: row wrap;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+/*@media all and (max-width: 800px) {
+  .flex-container {
+    justify-content: flex-start;
+  }
+}*/
+
+.flex-item {
+  width: 3em;
+  height: 2em;
+  background: tomato;
+  color: white;
+  text-align: center;
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 4em;
+  margin-top: 0.5em;
 }
