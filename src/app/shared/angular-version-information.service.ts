@@ -12,5 +12,9 @@ export class AngularVersionInformationService {
     }
   }
 
+  public get version(): any {
+    return VERSION;
+  }
+
   constructor() {}
 }

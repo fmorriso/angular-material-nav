@@ -17,7 +17,11 @@ export class AboutComponent implements OnInit {
   ) {}
 
   ngOnInit() {
-    this.angularVersion = this.ngVersionService.versionFull;
+    console.log(this.ngVersionService.versionFull);
+    this.angularVersion = this.ngVersionService.version.full;//  this.ngVersionService.versionFull;
+    //this.ngVersionService.version.full;
+
+
     this.materialVersion = this.matVersionService.versionFull;
   }
 }
