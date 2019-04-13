@@ -6,8 +6,10 @@
     "ng": "ng",
     "build": "ng build --configuration=development --progress",
     "build-prod": "ng build --configuration=production --progress",
+    "build-azure": "ng build --configuration=production --base-href=\"./\" --progress",
     "start": "ng serve --open --configuration=development --progress",
     "start-prod": "ng serve --open --configuration=production --progress",
+    "start-azure-dev": "ng serve --open --configuration=development --progress",
     "test": "ng test",
     "lint": "ng lint --typeCheck --format stylish",
     "lint-fix": "ng lint --format stylish --fix",
@@ -53,6 +55,6 @@
     "protractor": "~5.4.0",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
-    "typescript": "~3.2.2"
+    "typescript": "^3.2.0"
   }
 }

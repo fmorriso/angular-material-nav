@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {APP_BASE_HREF} from '@angular/common';
 //
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModule } from './shared/custom.material.module';
@@ -32,7 +33,11 @@ import { PictureGridComponent } from './picture-grid/picture-grid.component';
     FlexLayoutModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    {
+      provide: APP_BASE_HREF,
+      useValue: '/fred'}
+    ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
