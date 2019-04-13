@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "ng",
     "build": "ng build --configuration=development --progress",
-    "build-prod": "ng build --configuration=production --progress --output-path=angular-material-nav --base-href=\"https://fmorriso.github.io/angular-material-nav\"",
+    "build-prod": "ng build --configuration=production --progress --output-path=angular-material-nav --base-href=\"/angular-material-nav\"",
     "start": "ng serve --open --configuration=development --progress",
     "start-prod": "ng serve --open --configuration=production --progress",
     "test": "ng test",
