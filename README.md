@@ -6,6 +6,8 @@ It uses Angular Material and very little SCSS (mostly colors) because the whole 
 
 Upgraded to [Angular 7.x](https://angular.io/) and [Angular Material 7.x](https://material.angular.io/components/categories) on February 14, 2019.
 
+Upgraded to Angular 8 and Angular Material 8 in June 2019
+
 ## Purpose
 
 To figure out how to create a horizontal navigation bar using Angular Material because the available documentation is poor, non-existent and/or located in a part of the Angular Material documentation that you would not expect.
