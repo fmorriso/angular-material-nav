@@ -19,10 +19,11 @@ export class NavigationComponent implements OnInit {
     for (const route of this.router.config) {
       // we only care about the ones that have a data.label since the others are not going to be rendered in our navigation bar
       if (route.data && route.data.label) {
-        this.links.push({
+        const link = {
           path: `/${route.path}`,
           label: route.data.label
-        });
+        };
+        this.links.push(link);
       }
     }
     // console.log(JSON.stringify(this.links));

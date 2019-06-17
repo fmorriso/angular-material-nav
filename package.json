@@ -11,6 +11,7 @@
     "test": "ng test",
     "lint": "ng lint --typeCheck --format stylish",
     "lint-fix": "ng lint --format stylish --fix",
+    "npm-install": "npm install",
     "e2e": "ng e2e"
   },
   "private": true,
@@ -35,7 +36,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.800.0",
-    "@angular/cli": "~8.0.1",
+    "@angular/cli": "^8.0.3",
     "@angular/compiler-cli": "~8.0.0",
     "@angular/language-service": "~8.0.0",
     "@types/jasmine": "~3.3.8",
