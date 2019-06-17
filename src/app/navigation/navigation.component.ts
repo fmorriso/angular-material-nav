@@ -26,6 +26,6 @@ export class NavigationComponent implements OnInit {
         this.links.push(link);
       }
     }
-    // console.log(JSON.stringify(this.links));
+    console.log(JSON.stringify(this.links));
   }
 }
