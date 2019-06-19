@@ -8,24 +8,20 @@ import { MaterialVersionInformationService } from '../shared/material-version-in
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-  private _angularVersion: string;
-  private _materialVersion: string;
+
 
   constructor(
     private ngVersionService: AngularVersionInformationService,
     private matVersionService: MaterialVersionInformationService
   ) {}
 
-  ngOnInit() {
-    this._angularVersion = this.ngVersionService.version.full;
-    this._materialVersion = this.matVersionService.version.full;
-  }
+  ngOnInit() { }
 
   public get angularVersion(): string {
-    return this._angularVersion;
+    return this.ngVersionService.version.full;
   }
 
   public get materialVersion(): string {
-    return this._materialVersion;
+    return this.matVersionService.version.full;
   }
 }
