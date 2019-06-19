@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { AngularVersionInformationService } from '../services/angular-version-information.service';
 import { MaterialVersionInformationService } from '../services/material-version-information.service';
+import { FlexLayoutVersionInformationService } from '../services/flex-layout-version-information.service';
 
 @Component({
   selector: 'app-about',
@@ -10,7 +11,8 @@ import { MaterialVersionInformationService } from '../services/material-version-
 export class AboutComponent implements OnInit {
   constructor(
     private ngVersionService: AngularVersionInformationService,
-    private matVersionService: MaterialVersionInformationService
+    private matVersionService: MaterialVersionInformationService,
+    private fxLayoutVersionService: FlexLayoutVersionInformationService
   ) {}
 
   ngOnInit() {}
@@ -21,5 +23,9 @@ export class AboutComponent implements OnInit {
 
   public get materialVersion(): string {
     return this.matVersionService.version.full;
+  }
+
+  public get flexLayoutVersion(): string {
+    return this.fxLayoutVersionService.versionFull;
   }
 }
