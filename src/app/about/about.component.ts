@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularVersionInformationService } from '../shared/angular-version-information.service';
-import { MaterialVersionInformationService } from '../shared/material-version-information.service';
+import { AngularVersionInformationService } from '../services/angular-version-information.service';
+import { MaterialVersionInformationService } from '../services/material-version-information.service';
 
 @Component({
   selector: 'app-about',
@@ -8,14 +8,12 @@ import { MaterialVersionInformationService } from '../shared/material-version-in
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
-
-
   constructor(
     private ngVersionService: AngularVersionInformationService,
     private matVersionService: MaterialVersionInformationService
   ) {}
 
-  ngOnInit() { }
+  ngOnInit() {}
 
   public get angularVersion(): string {
     return this.ngVersionService.version.full;
