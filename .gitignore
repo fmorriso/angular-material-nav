@@ -10,6 +10,9 @@
 
 # dependencies
 /node_modules
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
 
 # IDEs and editors
 /.idea
@@ -26,7 +29,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-
+.history/*
 # Visual Studio 2017
 .vs/
 # "C:\projects\angular-material-nav\.vs\slnx.sqlite"
