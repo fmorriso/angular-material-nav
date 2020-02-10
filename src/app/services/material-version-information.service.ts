@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { VERSION } from '@angular/material';
+import { VERSION } from '@angular/material/core';
 
 @Injectable({
   providedIn: 'root'
