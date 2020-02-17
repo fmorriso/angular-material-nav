@@ -91,7 +91,6 @@ import { ObserversModule } from '@angular/cdk/observers';
     MatFormFieldModule,
     MatGridListModule,
     MatIconModule,
-    MatIconRegistry,
     MatInputModule,
     MatListModule,
     MatMenuModule,
