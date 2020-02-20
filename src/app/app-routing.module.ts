@@ -11,7 +11,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent, data: { label: 'Home' } },
   { path: 'about', component: AboutComponent, data: { label: 'About' } },
   { path: 'contact', component: ContactComponent, data: { label: 'Contact Us' } },
-  { path: 'picturegrid', component: PictureGridComponent, data:{ label: 'Pictures'}},
+  { path: 'picturegrid', component: PictureGridComponent, data: { label: 'Pictures'}},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
