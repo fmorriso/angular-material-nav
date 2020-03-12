@@ -9,7 +9,7 @@
     "start": "ng serve --open --configuration=development --progress",
     "start-prod": "ng serve --open --configuration=production --progress",
     "test": "ng test",
-    "lint": "ng lint --typeCheck --format stylish",
+    "lint": "ng lint --project --format stylish",
     "lint-fix": "ng lint --format stylish --fix",
     "npm-install": "npm install",
     "e2e": "ng e2e"
