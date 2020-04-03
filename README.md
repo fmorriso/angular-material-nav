@@ -2,7 +2,7 @@
 
 This project was created so I could research how to render a **_horizontal_** navigation bar for use with routing in Angular using Angular Material components.
 
-I had previously figured out how to do this using Angular plus [Bootstrap](https://getbootstrap.com/).
+I had previously figured out how to do this using Angular plus [Bootstrap](https://getbootstrap.com/) in a similar [project](https://github.com/fmorriso/Angular-bootstrap4-nav).
 
 The biggest obstacle I faced was that all the examples of navigation in Angular Material used **_vertially oriented_**, sidebar navigation (fixed or fly out).  
 
