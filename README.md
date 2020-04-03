@@ -4,12 +4,15 @@ This project was created so I could research how to render a **_horizontal_** na
 
 I had previously figured out how to do this using Angular plus [Bootstrap](https://getbootstrap.com/).
 
-The biggest obstacle I faced was that all the examples of navigation in Angular Material with **_vertially oriented_**, sidebar navigation (fixed or fly out).  I could not find a single example on the Angular Material website on how to create a **_horizontal_** navigation bar.
+The biggest obstacle I faced was that all the examples of navigation in Angular Material used **_vertially oriented_**, sidebar navigation (fixed or fly out).  
 
-## Software used in this project:
-* [Angular CLI](https://github.com/angular/angular-cli).
-* [Angular](https://angular.io/)
-* [Angular Material](https://material.angular.io/components/categories)
+I could not find a single example on the Angular Material website on how to create a **_horizontally oriented_** navigation bar.
+
+## Major software used in this project:
+* [Angular CLI](https://github.com/angular/angular-cli) - to create the project.
+* [Angular](https://angular.io/) - to drive the application
+* [Angular Material](https://material.angular.io/components/categories) - for pre-styled widgets
+* [Angular Flex-Layout](https://github.com/angular/flex-layout#readme) - for responsive user interface
 * SCSS (mostly colors) because the whole point of using a canned set of SCSS/CSS such as Angular   Material or Bootstrap is to avoid getting "tangled in the weeds" of SCSS/CSS.
 
 ## Change Log
