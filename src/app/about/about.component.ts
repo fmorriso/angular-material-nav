@@ -10,12 +10,11 @@ import { FlexLayoutVersionInformationService } from '../services/flex-layout-ver
 })
 export class AboutComponent implements OnInit {
   constructor(
-    private ngVersionService: AngularVersionInformationService,
-    private matVersionService: MaterialVersionInformationService,
-    private fxLayoutVersionService: FlexLayoutVersionInformationService
-  ) {}
-
-  ngOnInit() {}
+    private readonly ngVersionService: AngularVersionInformationService,
+    private readonly matVersionService: MaterialVersionInformationService,
+    private readonly fxLayoutVersionService: FlexLayoutVersionInformationService
+  ) {
+  }
 
   public get angularVersion(): string {
     return this.ngVersionService.version.full;
@@ -27,5 +26,8 @@ export class AboutComponent implements OnInit {
 
   public get flexLayoutVersion(): string {
     return this.fxLayoutVersionService.versionFull;
+  }
+
+  ngOnInit() {
   }
 }
