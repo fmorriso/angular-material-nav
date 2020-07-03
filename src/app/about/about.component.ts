@@ -16,18 +16,18 @@ export class AboutComponent implements OnInit {
   ) {
   }
 
-  public get angularVersion(): string {
+  get angularVersion(): string {
     return this.ngVersionService.version.full;
   }
 
-  public get materialVersion(): string {
+  get materialVersion(): string {
     return this.matVersionService.version.full;
   }
 
-  public get flexLayoutVersion(): string {
+  get flexLayoutVersion(): string {
     return this.fxLayoutVersionService.versionFull;
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
   }
 }

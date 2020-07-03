@@ -4,7 +4,7 @@ import { Injectable, VERSION } from '@angular/core';
   providedIn: 'root'
 })
 export class AngularVersionInformationService {
-  public get versionFull(): string {
+  get versionFull(): string {
     if (!VERSION || typeof VERSION === 'undefined') {
       return 'undefined';
     } else {
@@ -12,9 +12,9 @@ export class AngularVersionInformationService {
     }
   }
 
-  public get version(): any {
+  get version(): any {
     return VERSION;
   }
 
-  constructor() {}
+  constructor() { }
 }

@@ -1,9 +1,6 @@
 import { enableProdMode } from '@angular/core';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 
-// Step 5: https://material.angular.io/guide/getting-started
-import 'hammerjs';
-
 import { AppModule } from './app/app.module';
 import { environment } from './environments/environment';
 

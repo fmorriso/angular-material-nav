@@ -5,7 +5,7 @@ import { VERSION } from '@angular/material/core';
   providedIn: 'root'
 })
 export class MaterialVersionInformationService {
-  public get versionFull(): string {
+  get versionFull(): string {
     if (!VERSION || typeof VERSION === 'undefined') {
       return 'undefined';
     } else {
@@ -13,9 +13,9 @@ export class MaterialVersionInformationService {
     }
   }
 
-  public get version(): any {
+  get version(): any {
     return VERSION;
   }
 
-  constructor() {}
+  constructor() { }
 }

@@ -6,9 +6,9 @@ import { VERSION } from '@angular/flex-layout';
   providedIn: 'root'
 })
 export class FlexLayoutVersionInformationService {
-  constructor() {}
+  constructor() { }
 
-  public get versionFull(): string {
+  get versionFull(): string {
     if (!VERSION || typeof VERSION === 'undefined') {
       return 'undefined';
     } else {
@@ -16,7 +16,7 @@ export class FlexLayoutVersionInformationService {
     }
   }
 
-  public get version(): any {
+  get version(): any {
     return VERSION;
   }
 }

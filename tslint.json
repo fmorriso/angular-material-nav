@@ -8,6 +8,10 @@
       ]
     },
     "array-type": false,
+		"arrow-parens": [
+			true,
+			"ban-single-arg-parens"
+		],
     "arrow-return-shorthand": true,
     "curly": true,
     "deprecation": {
@@ -34,15 +38,19 @@
       "rxjs/Rx"
     ],
     "import-spacing": true,
-    "indent": {
-      "options": [
-        "spaces"
-      ]
-    },
+		"indent": [
+			true,
+			"spaces",
+			2
+		],
     "max-classes-per-file": false,
     "max-line-length": [
       true,
       140
+		],
+		"member-access": [
+			true,
+			"no-public"
     ],
     "member-ordering": [
       true,
@@ -77,6 +85,8 @@
       true,
       "as-needed"
     ],
+		"object-literal-sort-keys": false,
+		"ordered-imports": false,
     "quotemark": [
       true,
       "single"
@@ -95,6 +105,11 @@
         "named": "never"
       }
     },
+		"trailing-comma": false,
+		"typedef": [
+			true,
+			"call-signature"
+		],
     "typedef-whitespace": {
       "options": [
         {
