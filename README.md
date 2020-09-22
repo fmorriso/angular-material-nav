@@ -4,7 +4,7 @@ This project was created so I could research how to render a **_horizontal_** na
 
 I had previously figured out how to do this using Angular plus [Bootstrap](https://getbootstrap.com/) in a similar [project](https://github.com/fmorriso/Angular-bootstrap4-nav).
 
-The biggest obstacle I faced was that all the examples of navigation in Angular Material used **_vertially oriented_**, sidebar navigation (fixed or fly out).  
+The biggest obstacle I faced was that all the examples of navigation in Angular Material used **_vertially oriented_**, sidebar navigation (fixed or fly out).
 
 I could not find a single example on the Angular Material website on how to create a **_horizontally oriented_** navigation bar.
 
@@ -19,3 +19,4 @@ I could not find a single example on the Angular Material website on how to crea
 * Upgraded to Angular 7 and Angular Material 7 on February 14, 2019.
 * Upgraded to Angular 8 and Angular Material 8 in June 2019
 * Upgraded to Angular 9 and Angular Material 9 in March 2020
+* Upgraded to Angular 10 and Angular Material 10 in September 2020
