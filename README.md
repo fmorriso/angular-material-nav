@@ -20,3 +20,4 @@ I could not find a single example on the Angular Material website on how to crea
 * Upgraded to Angular 8 and Angular Material 8 in June 2019
 * Upgraded to Angular 9 and Angular Material 9 in March 2020
 * Upgraded to Angular 10 and Angular Material 10 in September 2020
+* Upgraded to Angular 11 and Angular Material 11 in March 2021
