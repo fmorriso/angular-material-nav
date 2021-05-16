@@ -10,7 +10,7 @@ import { CustomLink } from './custom-link';
 export class NavigationComponent implements OnInit {
   background = 'primary';
   links: CustomLink[] = [];
-  routes: Routes;
+  routes: Routes = [];
 
   constructor(private router: Router) {}
 
