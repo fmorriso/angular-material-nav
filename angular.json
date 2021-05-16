@@ -19,7 +19,13 @@
             "aot": false,
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
-            "scripts": []
+            "scripts": [],
+            "vendorChunk": true,
+            "extractLicenses": false,
+            "buildOptimizer": false,
+            "sourceMap": true,
+            "optimization": false,
+            "namedChunks": true
           },
           "configurations": {
             "production": {
@@ -30,7 +36,6 @@
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
-              "vendorChunk": true,
               "buildOptimizer": true,
               "progress": true,
               "fileReplacements": [
@@ -41,15 +46,9 @@
               ]
             },
             "development": {
-              "optimization": false,
               "outputHashing": "none",
-              "sourceMap": true,
               "commonChunk": true,
-              "namedChunks": true,
-              "aot": false,
               "extractLicenses": true,
-              "vendorChunk": true,
-              "buildOptimizer": false,
               "progress": true,
               "watch": true
             }
