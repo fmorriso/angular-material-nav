@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, Routes, Route } from '@angular/router';
+import { Router, Route } from '@angular/router';
 import { CustomLink } from './custom-link';
 
 @Component({
@@ -10,7 +10,6 @@ import { CustomLink } from './custom-link';
 export class NavigationComponent implements OnInit {
   background = 'primary';
   links: CustomLink[] = [];
-  routes: Routes = [];
 
   constructor(private router: Router) {}
 
@@ -18,10 +17,9 @@ export class NavigationComponent implements OnInit {
     // build the navigation links using the Angular route config that was defined in app-routing.module.ts
     // and dependency-injected into this component, which effectively shares that route information without
     // having to define a separate Angular service component.
-    this.routes = this.router.config;
     let route: Route;
-    for (route of this.routes) {
-      // we only care about the ones that have a data.label
+    for (route of this.router.config) {
+      // we only care about the routes that have a data.label
       // since the others are not going to be rendered in our navigation bar
       if (route.data && route.data.label) {
         const link: CustomLink = {
