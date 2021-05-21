@@ -38,6 +38,7 @@
               "extractLicenses": true,
               "buildOptimizer": true,
               "progress": true,
+              "verbose": true,
               "fileReplacements": [
                 {
                   "replace": "src/environments/environment.ts",
@@ -48,8 +49,10 @@
             "development": {
               "outputHashing": "none",
               "commonChunk": true,
+              "vendorChunk": true,
               "extractLicenses": true,
               "progress": true,
+              "verbose": true,
               "watch": true
             }
           }
