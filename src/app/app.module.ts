@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { APP_BASE_HREF } from '@angular/common';
 //
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CustomMaterialModule } from './shared/custom.material.module';
+import { CustomMaterialModule } from './shared/custom-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 //
 import { AppRoutingModule } from './app-routing.module';
