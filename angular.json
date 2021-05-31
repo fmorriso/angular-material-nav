@@ -16,6 +16,7 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "inlineStyleLanguage": "scss",
             "aot": false,
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.scss"],
@@ -47,15 +48,19 @@
               ]
             },
             "development": {
-              "outputHashing": "none",
-              "commonChunk": true,
+              "buildOptimizer": false,
+              "optimization": false,
               "vendorChunk": true,
-              "extractLicenses": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "commonChunk": true,
               "progress": true,
               "verbose": true,
               "watch": true
             }
-          }
+          },
+          "defaultConfiguration": "production"
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
@@ -69,7 +74,8 @@
             "development": {
               "browserTarget": "angular-material-nav:build:development"
             }
-          }
+          },
+          "defaultConfiguration": "development"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
