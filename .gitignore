@@ -36,6 +36,7 @@ speed-measure-plugin*.json
 # "C:\projects\angular-material-nav\.vs\slnx.sqlite-journal"
 
 # misc
+/.angular/cache
 /.sass-cache
 /connect.lock
 /coverage
