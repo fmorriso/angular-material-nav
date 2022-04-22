@@ -1,8 +1,7 @@
-<!-- works in Angular 12 + Angular Material 12 as of May 16, 2021 -->
+<!-- works in Angular 13 + Angular Material 13 as of April 21, 2022 -->
 <mat-toolbar color="primary">
   <mat-toolbar-row #toolbarRow>
     <a mat-button [routerLink]="['/']">Angular Material Navigation</a>
-    <!-- NOTE: use of $implicit below causes loop variable link to have a type of CustomLink -->
     <ng-template ngFor let-link="$implicit" [ngForOf]="links">
       <a
         mat-button

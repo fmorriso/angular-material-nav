@@ -14,7 +14,7 @@ I could not find a single example on the Angular Material website on how to crea
 - [Angular](https://angular.io/) - to drive the application
 - [Angular Material](https://material.angular.io/components/categories) - for pre-styled widgets
 - [Angular Flex-Layout](https://github.com/angular/flex-layout#readme) - for responsive user interface
-- SCSS (mostly colors) because the whole point of using a canned set of SCSS/CSS such as Angular Material or Bootstrap is to avoid getting "tangled in the weeds" of SCSS/CSS.
+- SCSS (mostly colors) because the whole point of using a canned set of SCSS/CSS such as Angular Material or Bootstrap is to avoid getting "tangled in the weeds" of home-brew custom SCSS/CSS.
 
 ## Change Log
 
