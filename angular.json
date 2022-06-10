@@ -124,7 +124,6 @@
       }
     }
   },
-  "defaultProject": "angular-material-nav",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
