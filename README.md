@@ -27,3 +27,5 @@ I could not find a single example on the Angular Material website on how to crea
 - Upgraded to Angular 13 and Angular Material 13 in December 2021 and February 2022
 - Upgraded to Angular 13.3.3 and Angular Material 13.3.3 in April 2022
 - Upgraded to Angular 13.3.9 and Angular Material 13.3.7 in May 2022
+- Upgraded to Angular 14.0.1 and Angular Material 14.0.1 in June 2022
+- Upgraded to Angular 14.0.4 and Angular Material 14.0.4 in July 2022
