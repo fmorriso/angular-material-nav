@@ -33,7 +33,8 @@
             "sourceMap": true,
             "optimization": false,
             "namedChunks": true,
-            "progress": true
+            "progress": true,
+            "verbose": true
           },
           "configurations": {
             "production": {
