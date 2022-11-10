@@ -30,4 +30,4 @@ I could not find a single example on the Angular Material website on how to crea
 - Upgraded to Angular 14.0.1 and Angular Material 14.0.1 in June 2022
 - Upgraded to Angular 14.0.4 and Angular Material 14.0.4 in July 2022
 - Upgraded to Angular 14.2.9 and Angular Material 14.2.6 in November 2022
-- 
+- Upgraded to Angular 14.2.10 and Angular Material 14.2.7 in November 2022
