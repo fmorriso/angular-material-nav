@@ -4,7 +4,7 @@ import { APP_BASE_HREF } from '@angular/common';
 //
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CustomMaterialModule } from './shared/custom-material.module';
-import { FlexLayoutModule } from '@angular/flex-layout';
+//NO LONGER SUPPORTED: import { FlexLayoutModule } from '@angular/flex-layout';
 //
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -29,8 +29,7 @@ import { PictureGridComponent } from './picture-grid/picture-grid.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CustomMaterialModule,
-    FlexLayoutModule,
+    CustomMaterialModule,    
     AppRoutingModule
   ],
   providers: [

@@ -1,9 +1,22 @@
-.active-route {
-  color: purple;
-  font-weight: bold;
-}
+//FAILS: @import '~@angular/material/theming';
+//TODO: figure out how to use current angular material primary and background colors
 
 mat-nav-list.list-horizontal {
   display: flex;
   flex-direction: row;
+}
+
+.mat-toolbar {
+  .mat-toolbar-row {
+    .mat-button {
+      color: white;
+    }
+    a.active-route {
+      color: #673ab7 !important; // TODO: remove important if at all possible
+      background-color: white;
+      font-weight: bold;
+    }
+  }
+ 
+
 }

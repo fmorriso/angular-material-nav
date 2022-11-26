@@ -13,7 +13,6 @@ I could not find a single example on the Angular Material website on how to crea
 - [Angular CLI](https://github.com/angular/angular-cli) - to create the project.
 - [Angular](https://angular.io/) - to drive the application
 - [Angular Material](https://material.angular.io/components/categories) - for pre-styled widgets
-- [Angular Flex-Layout](https://github.com/angular/flex-layout#readme) - for responsive user interface
 - SCSS (mostly colors) because the whole point of using a canned set of SCSS/CSS such as Angular Material or Bootstrap is to avoid getting "tangled in the weeds" of home-brew custom SCSS/CSS.
 
 ## Change Log
@@ -31,3 +30,4 @@ I could not find a single example on the Angular Material website on how to crea
 - Upgraded to Angular 14.0.4 and Angular Material 14.0.4 in July 2022
 - Upgraded to Angular 14.2.9 and Angular Material 14.2.6 in November 2022
 - Upgraded to Angular 14.2.10 and Angular Material 14.2.7 in November 2022
+- Upgraded to Angular 15.0.1 and Angular Material 15.0.0 in Novmeber 2022 which also required removing @angular/flex-layout because it is no longer being upgraded with each new release of Angular.
