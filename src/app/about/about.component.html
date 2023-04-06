@@ -1,4 +1,5 @@
-<div fxLayout="column" fxLayoutAlign="start center" class="mat-body-1">
+<!-- 
+<div class="mat-body-1">
   <span class="mat-h2">Using:</span>
   <section class="mat-h3">
     <ul>
@@ -7,3 +8,17 @@
     </ul>
   </section>
 </div>
+-->
+
+<mat-grid-list cols="1" rowHeight="2rem" gutterSize="1rem" role="list">
+  <mat-grid-tile rowspan="2">
+    <span class="mat-h1">
+      Angular version {{ angularVersion }}
+    </span>
+  </mat-grid-tile>
+  <mat-grid-tile rowspan="1">
+    <span class="mat-h1">
+      Angular Material version {{ materialVersion }}
+    </span>    
+  </mat-grid-tile>
+</mat-grid-list>

@@ -1,7 +1,7 @@
 <!-- works in Angular 13 + Angular Material 13 as of April 21, 2022 -->
 <mat-toolbar color="primary">
-  <mat-toolbar-row #toolbarRow>
-    <a mat-button [routerLink]="['/']">Angular Material Navigation</a>
+  <mat-toolbar-row #toolbarRow> 
+    <span>Angular Material Navigation &nbsp;</span>
     <ng-template ngFor let-link="$implicit" [ngForOf]="links">
       <a
         mat-button

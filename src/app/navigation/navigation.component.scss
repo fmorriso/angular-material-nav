@@ -1,22 +1,39 @@
-//FAILS: @import '~@angular/material/theming';
-//TODO: figure out how to use current angular material primary and background colors
+@use "@angular/material" as mat;
+@include mat.core();
+$my-palette: mat.$deep-purple-palette;
 
 mat-nav-list.list-horizontal {
   display: flex;
   flex-direction: row;
 }
 
-.mat-toolbar {
-  .mat-toolbar-row {
-    .mat-button {
-      color: white;
-    }
-    a.active-route {
-      color: #673ab7 !important; // TODO: remove important if at all possible
+/**/
+a:link {
+  color: mat.get-color-from-palette($my-palette, 'primary');
+  background-color: mat.get-color-from-palette($my-palette, 'accent');
+}
+/**/
+a.mat-button {      
+      color:white;
+      //color: mat.get-color-from-palette($my-palette, 'accent');      
+      //background-color: mat.get-color-from-palette($my-palette, 'primary');      
+}
+
+a.active-route {
       background-color: white;
+      color: purple;
+}
+
+/*
+a {
+  .mat-button {      
+    color: mat.get-color-from-palette($my-palette, 'primary');
+    background-color: mat.get-color-from-palette($my-palette, 'accent');
+
+    .active-route {
+      background-color: mat.get-color-from-palette($my-palette, 'primary');
+      color: mat.get-color-from-palette($my-palette, 'accent-700');
       font-weight: bold;
     }
   }
- 
-
-}
+  */
