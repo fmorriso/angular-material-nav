@@ -12,8 +12,7 @@ export class AboutComponent implements OnInit {
   constructor(
     private readonly ngVersionService: AngularVersionInformationService,
     private readonly matVersionService: MaterialVersionInformationService
-  ) {
-  }
+  ) {}
 
   get angularVersion(): string {
     return this.ngVersionService.version.full;
