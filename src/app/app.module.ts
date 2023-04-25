@@ -29,7 +29,7 @@ import { PictureGridComponent } from './picture-grid/picture-grid.component';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    CustomMaterialModule,    
+    CustomMaterialModule,
     AppRoutingModule
   ],
   providers: [
