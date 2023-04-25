@@ -8,7 +8,7 @@
     "start-dev": "ng serve --open --configuration=development",
     "build": "ng build --configuration=production",
     "build-dev": "ng build --configuration=development",
-    "watch": "ng build --configuration=development",
+    "watch": "ng build --configuration=development --watch",
     "test": "ng test"
   },
   "private": true,
