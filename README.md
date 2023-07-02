@@ -30,6 +30,7 @@ I could not find a single example on the Angular Material website on how to crea
 - Upgraded to Angular 14.0.4 and Angular Material 14.0.4 in July 2022
 - Upgraded to Angular 14.2.9 and Angular Material 14.2.6 in November 2022
 - Upgraded to Angular 14.2.10 and Angular Material 14.2.7 in November 2022
-- Upgraded to Angular 15.0.1 and Angular Material 15.0.0 in Novmeber 2022 which also required removing @angular/flex-layout because it is no longer being upgraded with each new release of Angular.
+- Upgraded to Angular 15.0.1 and Angular Material 15.0.0 in November 2022 which also required removing @angular/flex-layout because it is no longer being upgraded with each new release of Angular.
 - Upgraded to Angular 15.2.6 in April 2023
 - Upgraded to Angular 15.2.8 on April 26, 2023
+- Upgraded to Angular 16.1.3 on July 2, 2023
