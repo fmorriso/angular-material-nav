@@ -34,3 +34,5 @@ I could not find a single example on the Angular Material website on how to crea
 - Upgraded to Angular 15.2.6 in April 2023
 - Upgraded to Angular 15.2.8 on April 26, 2023
 - Upgraded to Angular 16.1.3 on July 2, 2023
+- Upgraded to Angular 16.2.1 on August 20, 2023
+
