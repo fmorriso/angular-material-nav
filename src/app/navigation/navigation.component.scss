@@ -1,6 +1,7 @@
 @use "@angular/material" as mat;
-@include mat.core();
-$my-palette: mat.$deep-purple-palette;
+@include mat.elevation-classes();
+@include mat.app-background();
+$my-palette: mat.$m2-deep-purple-palette;
 
 mat-nav-list.list-horizontal {
   display: flex;
@@ -9,8 +10,8 @@ mat-nav-list.list-horizontal {
 
 /**/
 a:link {
-  color: mat.get-color-from-palette($my-palette, 'primary');
-  background-color: mat.get-color-from-palette($my-palette, 'accent');
+  color: mat.m2-get-color-from-palette($my-palette, 'primary');
+  background-color: mat.m2-get-color-from-palette($my-palette, 'accent');
 }
 /**/
 a.mat-button {      

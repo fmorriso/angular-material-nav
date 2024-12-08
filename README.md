@@ -8,23 +8,31 @@ The biggest obstacle I faced was that all the examples of navigation in Angular 
 
 I could not find a single example on the Angular Material website on how to create a **_horizontally oriented_** navigation bar.
 
-## Major software used in this project:
+## Tools Used
 
-- [Angular CLI](https://github.com/angular/angular-cli) - to create the project.
-- [Angular](https://angular.io/) - to drive the application
-- [Angular Material](https://material.angular.io/components/categories) - for pre-styled widgets
-- SCSS (mostly colors) because the whole point of using a canned set of SCSS/CSS such as Angular Material or Bootstrap is to avoid getting "tangled in the weeds" of home-brew custom SCSS/CSS.
+| Tool             |  Version |
+|:-----------------|---------:|
+| @Angular/CLI     |   19.0.4 |
+| Angular          |   19.0.3 |
+| Angular/Material |   19.0.2 |
+| WebStorm         | 2024.3.0 |
+| VSCode           |   1.95.3 |
 
 ## Change Log
 
-- Upgraded to Angular 7 and Angular Material 7 on February 14, 2019.
-- Upgraded to Angular 8 and Angular Material 8 in June 2019
-- Upgraded to Angular 9 and Angular Material 9 in March 2020
-- Upgraded to Angular 10 and Angular Material 10 in September 2020
-- Upgraded to Angular 11 and Angular Material 11 in March 2021
-- Upgraded to Angular 12 and Angular Material 12 in May/August 2021
-- Upgraded to Angular 13 and Angular Material 13 in December 2021 and February 2022
-- Upgraded to Angular 13.3.3 and Angular Material 13.3.3 in April 2022
+| Date       | Description                                           |
+|:-----------|:------------------------------------------------------|
+| ?          | Initial creation                                      |
+| 2019-02-14 | upgrade to Angular 7 and Angular/Material 7           |
+| 2019-06    | upgrade to Angular 8 and Angular/Material 8           |
+| 2020-03    | upgrade to Angular 9 and Angular/Material 9           |
+| 2020-09    | upgrade to Angular 10 and Angular/Material 10         |
+| 2021-03    | upgrade to Angular 11 and Angular/Material 11         |
+| 2021-08    | upgrade to Angular 12 and Angular/Material 12         |
+| 2022-02    | upgrade to Angular 13 and Angular/Material 13         |
+| 2022-04    | Upgrade to Angular 13.3.3 and Angular/Material 13.3.3 |
+| 2024-12-08 | Upgrade to Angular 19 and Angular/Material 19         |
+
 - Upgraded to Angular 13.3.9 and Angular Material 13.3.7 in May 2022
 - Upgraded to Angular 14.0.1 and Angular Material 14.0.1 in June 2022
 - Upgraded to Angular 14.0.4 and Angular Material 14.0.4 in July 2022

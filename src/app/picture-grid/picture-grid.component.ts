@@ -3,9 +3,10 @@ import { Component, OnInit } from '@angular/core';
 import { Tile } from './tile';
 
 @Component({
-  selector: 'app-picture-grid',
-  templateUrl: './picture-grid.component.html',
-  styleUrls: ['./picture-grid.component.scss']
+    selector: 'app-picture-grid',
+    templateUrl: './picture-grid.component.html',
+    styleUrls: ['./picture-grid.component.scss'],
+    standalone: false
 })
 export class PictureGridComponent implements OnInit {
 

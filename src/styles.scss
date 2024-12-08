@@ -1,11 +1,12 @@
 @use "@angular/material" as mat;
 /* FUTURE:
 $fa-font-path: "../node_modules/font-awesome/fonts";
-@import '~font-awesome/scss/font-awesome.scss';
+@import 'font-awesome/scss/font-awesome.scss';
 */
-@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
 // https://blog.knoldus.com/understanding-dynamic-theming-in-angular-material/
-@include mat.core();
+@include mat.elevation-classes();
+@include mat.app-background();
 
-$my-palette: mat.$deep-purple-palette;
+$my-palette: mat.$m2-deep-purple-palette;
 
