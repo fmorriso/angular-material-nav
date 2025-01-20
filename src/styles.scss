@@ -10,3 +10,7 @@ $fa-font-path: "../node_modules/font-awesome/fonts";
 
 $my-palette: mat.$m2-deep-purple-palette;
 
+.no-underline {
+  text-decoration-line: none !important;
+  text-decoration-style: unset !important;
+}

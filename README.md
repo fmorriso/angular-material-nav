@@ -12,7 +12,7 @@ I could not find a single example on the Angular Material website on how to crea
 
 | Tool             |  Version |
 |:-----------------|---------:|
-| @Angular/CLI     |   19.0.4 |
+| Angular/CLI      |   19.1.2 |
 | Angular          |   19.0.3 |
 | Angular/Material |   19.0.2 |
 | WebStorm         | 2024.3.0 |
@@ -32,6 +32,7 @@ I could not find a single example on the Angular Material website on how to crea
 | 2022-02    | upgrade to Angular 13 and Angular/Material 13         |
 | 2022-04    | Upgrade to Angular 13.3.3 and Angular/Material 13.3.3 |
 | 2024-12-08 | Upgrade to Angular 19 and Angular/Material 19         |
+| 2025-01-20 | Upgrade to Angular 19.1 and Angular/Material 19.1 |
 
 - Upgraded to Angular 13.3.9 and Angular Material 13.3.7 in May 2022
 - Upgraded to Angular 14.0.1 and Angular Material 14.0.1 in June 2022

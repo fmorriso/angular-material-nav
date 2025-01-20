@@ -1,4 +1,5 @@
 @use "@angular/material" as mat;
+
 @include mat.elevation-classes();
 @include mat.app-background();
 $my-palette: mat.$m2-deep-purple-palette;
@@ -13,18 +14,20 @@ a:link {
   color: mat.m2-get-color-from-palette($my-palette, 'primary');
   background-color: mat.m2-get-color-from-palette($my-palette, 'accent');
 }
+
 /**/
-a.mat-button {      
-      color:white;
-      //color: mat.get-color-from-palette($my-palette, 'accent');      
-      //background-color: mat.get-color-from-palette($my-palette, 'primary');      
+a.mat-button {
+  color: white;
+  //color: mat.get-color-from-palette($my-palette, 'accent');
+  //background-color: mat.get-color-from-palette($my-palette, 'primary');
 }
 
 a.active-route {
-      background-color: white;
-      //color: purple;
-      color: rgb(126, 87, 194);
+  background-color: white;
+  //color: purple;
+  color: rgb(126, 87, 194);
 }
+
 
 /*
 a {
