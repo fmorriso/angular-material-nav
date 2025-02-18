@@ -28,6 +28,15 @@ a.active-route {
   color: rgb(126, 87, 194);
 }
 
+a {
+  text-decoration-line: none!important;
+  text-decoration-style: dotted;
+}
+
+.mdc-button__label {
+  text-decoration-line: none!important;
+  text-decoration-style: dotted;
+}
 
 /*
 a {

@@ -1,6 +1,6 @@
 <!-- works in Angular 15 + Angular Material 15 as of April 25, 2023 -->
 <mat-toolbar color="primary">
-  <mat-toolbar-row #toolbarRow> 
+  <mat-toolbar-row #toolbarRow>
     <span>Angular Material Navigation &nbsp;</span>
     <ng-template ngFor let-link="$implicit" [ngForOf]="links">
       <a
@@ -8,9 +8,7 @@
         [routerLink]="link.path"
         [routerLinkActive]="['mat-button-toggle-checked', 'active-route', 'no-underline']"
         #rla="routerLinkActive"
-      >
-        {{ link.label }}</a
-      >
+      >{{ link.label }}</a>
     </ng-template>
   </mat-toolbar-row>
 </mat-toolbar>

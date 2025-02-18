@@ -13,4 +13,9 @@ $my-palette: mat.$m2-deep-purple-palette;
 .no-underline {
   text-decoration-line: none !important;
   text-decoration-style: unset !important;
+  a {
+    text-decoration-line: none;
+  }
 }
+
+
