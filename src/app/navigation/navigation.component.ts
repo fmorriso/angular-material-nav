@@ -19,20 +19,16 @@ export class NavigationComponent implements OnInit {
     // build the navigation links using the Angular route config that was defined in app-routing.module.ts
     // and dependency-injected into this component, which effectively shares that route information without
     // having to define a separate Angular service component.
-    let route: Route;
-    for (route of this.router.config) {
-      // we only care about the routes that have a data['label']
+    for (const route of this.router.config) {
+      // we only care about the ones that have a title attribute,
       // since the others are not going to be rendered in our navigation bar
-      let labelData: string | undefined = undefined;
-      if (route.data) {
-        labelData = route.data['label'];
-        if (labelData) {
-          const link: CustomLink = {
-            path: `/${route.path}`,
-            label: labelData,
-          };
-          this.links.push(link);
-        }
+      if (route.title) {
+        //WARNING: must use string interpolation to convert title from Resolve<string> to just string
+        const link: CustomLink = {
+          path: `/${route.path}`,
+          label: `${route.title}`
+        };
+        this.links.push(link);
       }
     }
     console.log(JSON.stringify(this.links));

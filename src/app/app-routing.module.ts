@@ -8,10 +8,10 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { PictureGridComponent } from './picture-grid/picture-grid.component';
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent, title: 'Home', data: { label: 'Home' } },
-  { path: 'about', component: AboutComponent, title: 'About', data: { label: 'About' } },
-  { path: 'contact', component: ContactComponent, title: 'Contact Us', data: { label: 'Contact Us' } },
-  { path: 'picturegrid', component: PictureGridComponent, title: 'Pictures' ,data: { label: 'Pictures'}},
+  { path: 'home', component: HomeComponent, title: 'Home' },
+  { path: 'about', component: AboutComponent, title: 'About' },
+  { path: 'contact', component: ContactComponent, title: 'Contact Us' } ,
+  { path: 'picturegrid', component: PictureGridComponent, title: 'Pictures'},
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
 ];
