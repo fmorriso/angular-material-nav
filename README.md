@@ -12,13 +12,13 @@ I could not find a single example on the Angular Material website on how to crea
 
 | Tool             |  Version |
 |:-----------------|---------:|
-| @Angular/CLI     |   19.1.7 |
-| Angular          |   19.1.7 |
-| Angular/Material |   19.1.4 |
-| node             |  22.12.0 |
-| npm              |   11.1.0 |
-| WebStorm         | 2024.3.2 |
-| VSCode           |   1.97.2 |
+| @Angular/CLI     |  19.2.13 |
+| Angular          |  19.2.12 |
+| Angular/Material |  19.2.17 |
+| node             |  22.14.0 |
+| npm              |   11.4.0 |
+| WebStorm         | 2025.1.1 |
+| VSCode           |  1.100.2 |
 
 ## Change Log
 
@@ -44,10 +44,12 @@ I could not find a single example on the Angular Material website on how to crea
 | 2024-12-08 | Upgrade to Angular 19 and Angular/Material 19          |
 | 2025-01-20 | Upgrade to Angular 19.1 and Angular/Material 19.1      |
 | 2025-02-17 | Upgrade to latest Angular and Angular/Material         |
+| 2025-05-21 | Upgrade to latest Angular and Angular/Material         |
 
 
 ## References
 
 * [Angular](https://angular.dev/overview)
 * [Angular Material](https://material.angular.io/)
-* 
+* [Bootstrap](https://getbootstrap.com/)
+* [ng-bootstrap](https://ng-bootstrap.github.io/#/home)
