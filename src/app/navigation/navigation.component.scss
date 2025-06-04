@@ -24,8 +24,6 @@ a:link {
 a.mat-button {
   color: white;
   text-decoration: none!important;
-  //color: mat.get-color-from-palette($my-palette, 'accent');
-  //background-color: mat.get-color-from-palette($my-palette, 'primary');
 }
 
 a.active-route {
@@ -36,7 +34,6 @@ a.active-route {
 
 a {
   text-decoration: none!important;
-  text-decoration-style: dotted;
 }
 
 .mdc-button__label {
@@ -47,7 +44,10 @@ a {
   text-decoration-line: none!important;
 }
 
-::ng-deep a {
-  text-decoration-line: none!important;
+
+:host ::ng-deep a.mat-button,
+:host ::ng-deep a .mdc-button__label {
+  text-decoration: none !important;
 }
+
 
