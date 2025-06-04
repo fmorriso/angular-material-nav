@@ -9,15 +9,21 @@ mat-nav-list.list-horizontal {
   flex-direction: row;
 }
 
+.no-underline {
+  text-decoration: none!important;
+}
+
 /**/
 a:link {
   color: mat.m2-get-color-from-palette($my-palette, 'primary');
   background-color: mat.m2-get-color-from-palette($my-palette, 'accent');
+  text-decoration: none!important;
 }
 
 /**/
 a.mat-button {
   color: white;
+  text-decoration: none!important;
   //color: mat.get-color-from-palette($my-palette, 'accent');
   //background-color: mat.get-color-from-palette($my-palette, 'primary');
 }
@@ -29,25 +35,19 @@ a.active-route {
 }
 
 a {
-  text-decoration-line: none!important;
+  text-decoration: none!important;
   text-decoration-style: dotted;
 }
 
 .mdc-button__label {
   text-decoration-line: none!important;
-  text-decoration-style: dotted;
+}
+// desperate attempt to remove underline beneath <a tags within mat-toolbar
+.mdc-button, .mat-mdc-button, .mat-mdc-button-base, .mat-unthemed,  .mat-mdc-button-ripple {
+  text-decoration-line: none!important;
 }
 
-/*
-a {
-  .mat-button {      
-    color: mat.get-color-from-palette($my-palette, 'primary');
-    background-color: mat.get-color-from-palette($my-palette, 'accent');
+::ng-deep a {
+  text-decoration-line: none!important;
+}
 
-    .active-route {
-      background-color: mat.get-color-from-palette($my-palette, 'primary');
-      color: mat.get-color-from-palette($my-palette, 'accent-700');
-      font-weight: bold;
-    }
-  }
-  */

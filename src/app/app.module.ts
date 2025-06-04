@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { APP_BASE_HREF } from '@angular/common';
 //
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CustomMaterialModule } from './shared/custom-material.module';
+//
 //NO LONGER SUPPORTED: import { FlexLayoutModule } from '@angular/flex-layout';
 //
 import { AppRoutingModule } from './app-routing.module';
@@ -18,19 +18,18 @@ import { PictureGridComponent } from './picture-grid/picture-grid.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AppRoutingModule,
     NavigationComponent,
     AboutComponent,
     HomeComponent,
     ContactComponent,
     PageNotFoundComponent,
     PictureGridComponent
-  ],
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    CustomMaterialModule,
-    AppRoutingModule
   ],
   providers: [
     {

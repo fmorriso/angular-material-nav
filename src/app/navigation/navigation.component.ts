@@ -1,19 +1,25 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, Route } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 //
 import { CustomLink } from './custom-link';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButton } from '@angular/material/button';
+import { NgClass } from '@angular/common';
 
 @Component({
-    selector: 'app-navigation',
-    templateUrl: './navigation.component.html',
-    styleUrls: ['./navigation.component.scss'],
-    standalone: false
+  selector: 'app-navigation',
+  templateUrl: './navigation.component.html',
+  styleUrls: ['./navigation.component.scss'],
+  standalone: true,
+  imports: [MatGridListModule, MatToolbarModule, RouterLink, RouterLinkActive, MatButton],
 })
 export class NavigationComponent implements OnInit {
   background = 'primary';
   links: CustomLink[] = [];
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) {
+  }
 
   ngOnInit(): void {
     // build the navigation links using the Angular route config that was defined in app-routing.module.ts

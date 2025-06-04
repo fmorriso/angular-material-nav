@@ -2,13 +2,14 @@
 <mat-toolbar color="primary">
   <mat-toolbar-row #toolbarRow>
     <span>Angular Material Navigation &nbsp;</span>
-    <ng-template ngFor let-link="$implicit" [ngForOf]="links">
+    @for ( link of links; track link.path ) {
       <a
         mat-button
+        class="no-underline"
         [routerLink]="link.path"
         [routerLinkActive]="['mat-button-toggle-checked', 'active-route', 'no-underline']"
         #rla="routerLinkActive"
       >{{ link.label }}</a>
-    </ng-template>
+    }
   </mat-toolbar-row>
 </mat-toolbar>
